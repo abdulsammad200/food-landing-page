@@ -1,0 +1,140 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(84, 126, 25);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  height: 60px;
+  width: 70%;
+  /* border: 1px solid black; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.spice {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.Categroy {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.navlist {
+  list-style: none;
+  color: white;
+  display: flex;
+}
+ul > li {
+  margin-left: 30px;
+}
+.fa-magnifying-glass {
+  color: white;
+  font-size: 20px;
+}
+.fa-cart-shopping {
+  color: white;
+  font-size: 20px;
+}
+.btn1 {
+  box-shadow: 1px 1px 10px black;
+  color: white;
+  height: 45px;
+  width: 150px;
+  border: none;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.btn1:hover {
+  background-color: rgb(242, 168, 29);
+  cursor: pointer;
+}
+.nav2 {
+  height: 30px;
+  width: 155px;
+  /* border: 1px solid black; */
+  position: relative;
+  left: 18%;
+}
+.secondsection {
+  border: 1px solid black;
+  height: 600px;
+  width: 80%;
+  margin: auto;
+}
+.leftside {
+  height: 400px;
+  width: 40%;
+  /* border: 1px solid black; */
+  margin-left: 120px;
+  margin-top: 150px;
+}
+.where {
+  color: white;
+  font-size: 45px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.every {
+  color: rgb(233, 155, 10);
+  font-size: 45px;
+  position: relative;
+  bottom: 58px;
+  left: 150px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.is {
+  color: white;
+  font-size: 45px;
+  position: relative;
+  bottom: 58px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.lmmerse {
+  color: white;
+  position: relative;
+  bottom: 45px;
+}
+.order {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: white;
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+}
+.learn {
+  height: 50px;
+  width: 150px;
+  border: 1px solid white;
+  background-color: rgb(84, 126, 25);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 25px;
+  box-shadow: 1px 1px 10px black;
+}
+.order:hover {
+  background-color: rgb(242, 235, 235);
+  cursor: pointer;
+}
+.learn:hover {
+  background-color: rgb(107, 151, 47);
+  cursor: pointer;
+}
+.rightside {
+  height: 540px;
+  width: 35%;
+  border: 1px solid black;
+  position: absolute;
+  top: 20%;
+  right: 11%;
+}
