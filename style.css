@@ -1,6 +1,7 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(84, 126, 25);
+  box-sizing: border-box;
 }
 * {
   padding: 0;
@@ -63,7 +64,7 @@ ul > li {
   left: 18%;
 }
 .secondsection {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 600px;
   width: 80%;
   margin: auto;
@@ -137,4 +138,291 @@ ul > li {
   position: absolute;
   top: 20%;
   right: 11%;
+}
+.thirdsection {
+  height: 950px;
+  width: 100%;
+  /* border: 1px solid black; */
+  background-color: white;
+}
+.midsection {
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid black; */
+  margin: auto;
+  color: orange;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 50px;
+}
+.midsection2 {
+  height: 250px;
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.burger {
+  height: 250px;
+  width: 230px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.Savory {
+  color: rgb(77, 150, 57);
+}
+.Each {
+  color: rgb(79, 78, 78);
+}
+.pizza {
+  height: 250px;
+  width: 230px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.Mozzarella {
+  color: rgb(77, 150, 57);
+}
+.savor {
+  color: rgb(79, 78, 78);
+}
+.noddles {
+  height: 250px;
+  width: 230px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.Delicious {
+  color: rgb(77, 150, 57);
+}
+.chicken {
+  height: 250px;
+  width: 230px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.Experience {
+  color: rgb(79, 78, 78);
+}
+.Crispy {
+  color: rgb(77, 150, 57);
+}
+.Indulge {
+  color: rgb(79, 78, 78);
+}
+.Experience {
+  color: rgb(79, 78, 78);
+}
+.img1 {
+  border-radius: 10px;
+}
+.midsection3 {
+  height: 250px;
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 100px;
+}
+.img2 {
+  height: 250px;
+  width: 40%;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-image: url(https://img.freepik.com/free-photo/delicious-pizza-indoors_23-2150873874.jpg?t=st=1706346283~exp=1706349883~hmac=6525460fd89b9270bd4de7ef6213f1355f31a841dae02aabd3107df58af045e4&w=1060);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 2px 10px black;
+}
+.img3 {
+  height: 250px;
+  width: 30%;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  background-image: url(https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=996&t=st=1706381099~exp=1706381699~hmac=52df5062ff44e9f78922666e30a9ea321cf208c0cf202c975d0df872f23f29c5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 2px 10px black;
+}
+.grab {
+  color: white;
+  position: relative;
+  left: 43%;
+}
+.discount {
+  color: white;
+  position: relative;
+  left: 70%;
+  font-size: 20px;
+}
+.yummy {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.discount2 {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.fourthsection {
+  height: 1000px;
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid black; */
+  background-color: orange;
+}
+.heading2 {
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid black; */
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 80%;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 20px;
+}
+.btn2 {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  background: rgb(84, 126, 25);
+  border: none;
+}
+.btn2:hover {
+  background-color: rgb(93, 131, 40);
+  cursor: pointer;
+}
+.display1 {
+  height: 300px;
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 50px;
+}
+.pic1 {
+  height: 280px;
+  width: 25%;
+  /* border: 1px solid black; */
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+}
+.pic2 {
+  height: 280px;
+  width: 25%;
+  /* border: 1px solid black; */
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+}
+.pic3 {
+  height: 280px;
+  width: 25%;
+  /* border: 1px solid black; */
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+}
+.img4 {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.number1 {
+  color: rgb(77, 150, 57);
+  margin-left: 15px;
+}
+.Special {
+  color: rgb(66, 61, 61);
+  margin-left: 15px;
+}
+.fa-star {
+  color: goldenrod;
+  position: relative;
+  left: 70%;
+  bottom: 23%;
+}
+.number2 {
+  color: black;
+  position: relative;
+  left: 78%;
+  bottom: 31%;
+}
+.fifthsection {
+  height: 800px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: white;
+}
+.heading3 {
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid black; */
+  margin: auto;
+  color: orange;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+}
+.display2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pic4 {
+  height: 600px;
+  width: 35%;
+  /* border: 1px solid black; */
+  background-image: url(https://img.freepik.com/free-photo/male-cook-standing-kitchen-presenting-delicious-dish_23-2147863798.jpg?w=740&t=st=1706386115~exp=1706386715~hmac=27bb7562cd782b6d2748bacfd5fd8f878fe12dba8a0b18342779591af556e5e6);
+  background-position: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 1px 5px black;
+}
+.description {
+  margin-top: 50px;
+  margin-left: -100px;
+  height: 600px;
+  width: 35%;
+  /* border: 1px solid black; */
+}
+.heading4 {
+  color: rgb(84, 126, 25);
+  font-size: 40px;
+}
+.we {
+  margin-top: 30px;
+  color: rgb(81, 79, 79);
+  font-size: 20px;
+}
+.btn3 {
+  box-shadow: 1px 1px 10px black;
+  color: white;
+  height: 45px;
+  width: 150px;
+  border: none;
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 70px;
 }
