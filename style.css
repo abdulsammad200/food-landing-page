@@ -1,6 +1,5 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(84, 126, 25);
   box-sizing: border-box;
 }
 * {
@@ -8,6 +7,11 @@ body {
   margin: 0;
 }
 .navbar {
+  height: 750px;
+  width: 100%;
+  background-color: rgb(84, 126, 25);
+}
+.navbar1 {
   height: 60px;
   width: 70%;
   /* border: 1px solid black; */
@@ -55,6 +59,7 @@ ul > li {
 .btn1:hover {
   background-color: rgb(242, 168, 29);
   cursor: pointer;
+  transform: scale(1.2);
 }
 .nav2 {
   height: 30px;
@@ -126,18 +131,30 @@ ul > li {
 .order:hover {
   background-color: rgb(242, 235, 235);
   cursor: pointer;
+  transform: scale(1.2);
 }
 .learn:hover {
   background-color: rgb(107, 151, 47);
   cursor: pointer;
+  transform: scale(1.2);
 }
 .rightside {
+  box-shadow: 1px 1px 20px black;
+  border-radius: 30px;
   height: 540px;
   width: 35%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   position: absolute;
   top: 20%;
   right: 11%;
+  background-image: url(https://img.freepik.com/free-photo/mixed-fried-meat-with-pomegranate-sauce_140725-3461.jpg?w=826&t=st=1706471179~exp=1706471779~hmac=a9dbdd5c6fe3639542561a4dd570781d2fe90d82fbc4e5b179216c5eaf52f983);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rightside:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 .thirdsection {
   height: 950px;
@@ -243,7 +260,7 @@ ul > li {
   width: 30%;
   /* border: 1px solid black; */
   border-radius: 20px;
-  background-image: url(https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=996&t=st=1706381099~exp=1706381699~hmac=52df5062ff44e9f78922666e30a9ea321cf208c0cf202c975d0df872f23f29c5);
+  background-image: url(https://img.freepik.com/free-photo/burger-hamburger-cheeseburger_505751-3697.jpg?w=740&t=st=1706471119~exp=1706471719~hmac=4a3bb92bd1a54c8969c9c6e84eecc50193662932f139807b4e90c31c6efdfd5e);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -308,6 +325,7 @@ ul > li {
 .btn2:hover {
   background-color: rgb(93, 131, 40);
   cursor: pointer;
+  transform: scale(1.2);
 }
 .display1 {
   height: 300px;
@@ -372,7 +390,7 @@ ul > li {
 .fifthsection {
   height: 800px;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: white;
 }
 .heading3 {
@@ -425,4 +443,176 @@ ul > li {
   font-size: 20px;
   border-radius: 10px;
   margin-top: 70px;
+}
+.btn3:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: rgb(240, 178, 63);
+}
+.sixsection {
+  height: 900px;
+  width: 100%;
+  /* border: 1px solid black; */
+  margin: auto;
+  background-color: rgb(243, 239, 235);
+}
+.heading5 {
+  color: rgb(84, 126, 25);
+  font-size: 40px;
+  color: orange;
+  text-align: center;
+  padding-top: 50px;
+}
+.inputs {
+  box-shadow: 1px 1px 10px rgb(44, 43, 43);
+  height: 55px;
+  width: 450px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: relative;
+  left: 15%;
+  top: 10%;
+  background-color: rgb(243, 239, 235);
+  margin-left: 30px;
+}
+.input {
+  box-shadow: 1px 1px 10px rgb(44, 43, 43);
+  height: 55px;
+  width: 940px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: relative;
+  left: 15%;
+  top: 17%;
+  background-color: rgb(243, 239, 235);
+  margin-left: 30px;
+}
+.input2 {
+  box-shadow: 1px 1px 10px rgb(44, 43, 43);
+  height: 250px;
+  width: 940px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: relative;
+  left: 15%;
+  top: 25%;
+  background-color: rgb(243, 239, 235);
+  margin-left: 30px;
+}
+.btn4 {
+  box-shadow: 1px 1px 10px black;
+  color: white;
+  height: 45px;
+  width: 150px;
+  border: none;
+  background-color: rgb(84, 126, 25);
+  font-size: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 40%;
+  left: -23%;
+}
+.btn4:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: rgb(103, 147, 15);
+}
+.sevensection {
+  height: 420px;
+  width: 100%;
+  background-color: orange;
+}
+.display3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  height: 250px;
+  width: 20%;
+  /* border: 1px solid black; */
+  margin-top: 70px;
+}
+.box2 {
+  height: 250px;
+  width: 20%;
+  /* border: 1px solid black; */
+  margin-top: 70px;
+}
+.box3 {
+  height: 250px;
+  width: 31%;
+  /* border: 1px solid black; */
+  margin-top: 70px;
+}
+.spiced {
+  color: white;
+  font-size: 40px;
+}
+.Category2 {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+.number3 {
+  color: white;
+  font-size: 20px;
+}
+.number4 {
+  color: rgb(84, 126, 25);
+  font-size: 20px;
+  margin-left: 10px;
+}
+.Quick {
+  color: white;
+  font-size: 35px;
+}
+.terms {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.Subscribe {
+  color: white;
+  font-size: 35px;
+}
+.box4 {
+  height: 50px;
+  width: 90%;
+  background-color: white;
+  border-radius: 30px;
+  margin: auto;
+  margin-top: 10px;
+}
+.btn5 {
+  height: 40px;
+  width: 30%;
+  border-radius: 30px;
+  margin-left: 65%;
+  margin-top: 5px;
+  border: none;
+  background-color: rgb(84, 126, 25);
+  color: white;
+  font-size: 15px;
+}
+.btn5:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: rgb(103, 147, 15);
+}
+.box5 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 50%;
+  margin: auto;
+  /* border: 1px solid black; */
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.copy {
+  color: white;
+  position: relative;
+  left: 40%;
+  top: 50px;
 }
